@@ -1,0 +1,9 @@
+{
+  "name": "rapid-dispatch-live-ops",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "test": "npm --workspace backend test",
+    "build": "npm --workspace frontend run build"
+  }
+}
